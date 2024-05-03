@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.column {
+    border: 1px solid black;
+    width: 30%;
+    padding: 10px;
+    min-height: 500px;
+}
+.addbutton {
+    width: 280px;
+}
+.item {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.item:hover {
+    background-color: #e0e0e0;
+}
